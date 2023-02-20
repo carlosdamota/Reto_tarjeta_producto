@@ -2,11 +2,75 @@
 /* font-family: 'Fraunces', serif;
 font-family: 'Montserrat', sans-serif; */
 
-/* .section
-.section__image--mobile
-.section__image--desktop
-.section__text
-.section__text--bold
-.section__text--grayish
-.section__title 
-.section__prices  */
+body{
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-height: 100vh;
+    flex-wrap: wrap;
+}
+.aside {
+    display: none;
+}
+/* .aside__image */
+.section {background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    justify-content: center;
+    align-items:flex-start;
+    border-radius: 10px;
+    /* width: 20rem; */
+    
+}
+.section__image {
+    max-width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.section__text{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.section__text--grayish {
+    color: hsl(228, 12%, 48%);
+}
+
+.section__text--spacing {
+    letter-spacing: 0.5em;
+}
+.section__title {
+    font-family: 'Fraunces', serif;
+    font-family: 700;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.section__price {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.section__price--bold {
+    font-weight: 700;
+    font-family: 'Fraunces', serif;
+    color: hsl(32, 48%, 57%);
+    font-size: x-large;
+}
+.section__price--grayish {
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+}
+button {
+    align-self: center;
+    margin-bottom: 1rem;
+    background-color: hsl(32, 48%, 57%);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
