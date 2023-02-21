@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Targeta de Producto</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://kit.fontawesome.com/ef6e29c44e.css" crossorigin="anonymous">
 </head>
 <body>
-    <aside class="aside">
+    <!-- <aside class="aside">
         <img class="aside__image" src="images/image-product-desktop.jpg" alt="image-product-desktop">
-    </aside>
+    </aside> -->
     <section class="section">
+        <img class="section__image section__image--desktop" src="images/image-product-desktop.jpg" alt="image-product-desktop">
         <img src="images/image-product-mobile.jpg" alt="image-product-mobile" class="section__image">
         <p class="section__text section__text--grayish section__text--spacing">PERFUME</p>
         <h1 class="section__title">Gabrielle Essence Eau De Parfum</h1>
@@ -21,7 +23,10 @@
             <p class="section__text section__price--grayish">$169.99<p>
 
             </div>
-        <button>Add to cart</button>
+        <button>
+            <span class="button__cart-icon"><img class="button__cart-icon--svg" src="images/shopping-cart-svgrepo-com (1).svg" alt=""></span>
+            <p class="section__text section__button__text">Add to cart</p>
+        </button>
     </section>
 </body>
 </html>
