@@ -73,7 +73,7 @@ body{
 }
 .section__price--grayish {
     text-decoration: line-through;
-    color: hsl(158, 36%, 37%);
+    color: hsl(228, 12%, 48%);
     margin: 0;
     padding: 0;
 }
