@@ -36,7 +36,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here] (https://github.com/carlosdamota/Reto_tarjeta_producto.git)
-- Live Site URL: [Add live site URL here] (reto-tarjeta-producto.vercel.app
+- Live Site URL: [Add live site URL here] (https://reto-tarjeta-producto-carlosdamota.vercel.app/
 )
 
 ## My process
@@ -55,6 +55,10 @@ One of the most important things I've learned is the importance of writing readm
 Other concepts have been the use of the BEM methodology to be able to guide myself through the CSS, I'm still a bit green and I create more code than necessary, I hope to polish this aspect.
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+
+### Correction of errors and suggestions.
+
+I had to make several semantic improvements compared to the first final version, such as replacing the divs that grouped the content of the card with (main). In the first version, I used 2 different images without using the (picture) tag. I have learned to use this tag, as well as how to improve the code to make it more semantic and responsive. In terms of the HTML structure, in the first version, there was a (p) tag inside the (button) which has been replaced with a (span) for better practices.
 
 
 

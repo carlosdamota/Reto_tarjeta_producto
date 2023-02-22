@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,15 +8,13 @@
     <link rel="stylesheet" href="https://kit.fontawesome.com/ef6e29c44e.css" crossorigin="anonymous">
 </head>
 <body>
-    <div class="target">
-        <div class="image">
-            <img class="image image--desktop" src="images/image-product-desktop.jpg" alt="image-product-desktop">
-            <img class="image image--mobile" src="images/image-product-mobile.jpg" alt="image-product-mobile" class="section__image">
-        </div>
+    <main>
+        <picture>
+            <source media="(min-width: 1440px)" srcset="images/image-product-desktop.jpg">
+            <img src="images/image-product-mobile.jpg" alt="image-product-mobile">
+        </picture>
 
-        <section class="section">
-            <!-- <img class="section__image section__image--desktop" src="images/image-product-desktop.jpg" alt="image-product-desktop">
-            <img src="images/image-product-mobile.jpg" alt="image-product-mobile" class="section__image"> -->
+        <section>
             <p class="section__text section__text--grayish section__text--spacing">PERFUME</p>
             <h1 class="section__title">Gabrielle Essence Eau De Parfum</h1>
             <p class="section__text section__text--grayish">A floral, solar and voluptuous interpretation composed by Olivier Polage, Perfumer-Creator for the Hause of CHANEL.</p>
@@ -27,10 +24,10 @@
 
             </div>
             <button>
-                <span class="button__cart-icon"><img class="button__cart-icon--svg" src="images/shopping-cart-svgrepo-com (1).svg" alt=""></span>
-                <p class="section__text section__button__text">Add to cart</p>
+                <span class="button__cart-icon"><img class="button__cart-icon--svg" src="images/shopping-cart-svgrepo-com.svg" alt=""></span>
+                <span class="section__text section__button__text">Add to cart</span>
             </button>
-    </div>
-    </section>
-</body>
+        </section>
+    </main>
+    </body>
 </html>
